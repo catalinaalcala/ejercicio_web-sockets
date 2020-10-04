@@ -74,7 +74,7 @@ router.delete("/:ts", (req, res) => {
 
 const validateMessage = (message) => {
   const schema = Joi.object({
-    message: Joi.string().min(1).required(),
+    message: Joi.string().min(5).required(),
     author: Joi.string().required(),
     ts: Joi.string().min(1).required()
   });
