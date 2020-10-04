@@ -13,7 +13,7 @@ const handleSubmit = (evt) => {
   evt.preventDefault();
   const message = document.getElementById("message");
   ws.send(message.value);
-  message.valune = "";
+  message.value = "";
 };
 
 const handleSubmitAuthor = (evt) => {
