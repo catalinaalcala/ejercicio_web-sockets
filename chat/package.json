@@ -6,9 +6,11 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "^4.16.4",
+    "fs": "0.0.1-security",
     "joi": "^17.2.1",
     "morgan": "~1.9.1",
     "sequelize": "^6.3.5",

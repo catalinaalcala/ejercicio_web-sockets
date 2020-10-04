@@ -6,12 +6,20 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Chat</h1>
-    <div id="messages"></div>
-    <form id="form">
-      <input type="text" id="message" />
-      <input type="submit" value="submit" />
-    </form>
+    <div id="give-author">
+      <form id="form-author">
+        <input type="text" id="author" placeholder="su nombre aquí"/>
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+    <div style="display: none;" id="chat">
+      <h1>Chat</h1>
+      <div id="messages"></div>
+      <form id="form">
+        <input type="text" id="message" />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
     <script src="./javascripts/script.js"></script>
   </body>
 </html>
